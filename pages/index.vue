@@ -24,9 +24,12 @@ try {
       <div class='flex justify-start items-start'>
         <nav class='text-[1.3rem] flex flex-col justify-start pt-3 pl-4 m-0'>
           <div class='flex items-center'>
-            <a @click="trackButtonClick('mailto')" href='mailto:uwu@uvvu.pw' class='nav-button text-white'>Email</a>
-            <a @click="trackButtonClick('github')" href='https://github.com/u-v-v-u'
-              class='nav-button text-white'>Github</a>
+            <a @click="trackButtonClick('mailto')" href='mailto:uwu@uvvu.pw' class='nav-button text-white'>
+              <Icon name='eva:email-outline' /> Email
+            </a>
+            <a @click="trackButtonClick('github')" href='https://github.com/u-v-v-u' class='nav-button text-white'>
+              <Icon name='mdi:github-box' /> Github
+            </a>
           </div>
         </nav>
       </div>
