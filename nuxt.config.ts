@@ -3,6 +3,11 @@ export default defineNuxtConfig({
   css: ['@/styles/main.css'],
   modules: [
     'nuxt-icon',
-    '@nuxtjs/tailwindcss'
-  ]
+    '@nuxtjs/tailwindcss',
+    ['nuxt-umami', {
+      autoTrack: true,
+      websiteId: 'b863ab0-e9c3-4739-9413-98da88d84e92',
+      scriptUrl: 'https://analytics.uvvu.pw/umami.js'
+    }]
+  ],
 })
