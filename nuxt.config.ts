@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     ['nuxt-umami', {
       autoTrack: true,
-      websiteId: 'b863ab0-e9c3-4739-9413-98da88d84e92',
+      websiteId: '9b863ab0-e9c3-4739-9413-98da88d84e92',
       scriptUrl: 'https://analytics.uvvu.pw/umami.js'
     }]
   ],
