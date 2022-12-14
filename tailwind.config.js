@@ -5,7 +5,15 @@ module.exports = {
     './styles/**/*.css'
   ],
   theme: {
-    extend: {},
+    extend: {
+      typography: ({ theme }) => ({
+        zinc: {
+          css: {
+            '--tw-prose-pre-bg': 'transparent',
+          }
+        }
+      })
+    }, 
   },
   plugins: [require('@tailwindcss/typography')],
 }
