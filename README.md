@@ -1,1 +1,1 @@
-# NuxtJS 3 Template
+# u-v-v-u/web
