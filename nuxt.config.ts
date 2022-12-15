@@ -3,7 +3,6 @@ export default defineNuxtConfig({
   css: ['@/styles/main.css'],
   modules: [
     'nuxt-icon',
-    '@nuxtjs/partytown',
     '@nuxtjs/tailwindcss',
     ['nuxt-umami', {
       autoTrack: true,

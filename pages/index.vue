@@ -1,4 +1,4 @@
-<script setup lang='ts'>
+<script setup lang='tsx'>
 import '@/styles/main.css'
 
 const { $umami } = useNuxtApp()
@@ -14,6 +14,18 @@ try {
   uwuText.value = `${res}\n\t\tRust & TypeScript Development`
 } catch {
   uwuText.value = ''
+}
+</script>
+
+<script async lang='tsx'>
+export default {
+  created() {
+    if (!process.client) return
+
+    const fade = document.getElementById('fade-in')!
+
+    fade.style.opacity = '1'
+  }
 }
 </script>
 
