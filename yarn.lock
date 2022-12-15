@@ -346,6 +346,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@builder.io/partytown@npm:^0.7.2":
+  version: 0.7.3
+  resolution: "@builder.io/partytown@npm:0.7.3"
+  bin:
+    partytown: bin/partytown.cjs
+  checksum: 9af26db19a2af91b77636ef31b3e8656698904cef0b20d13d05191f88584adf36fba9046229b5cbf674819c633c44d312b92b7c4e748703edd6ad22682a26a5c
+  languageName: node
+  linkType: hard
+
 "@cloudflare/kv-asset-handler@npm:^0.2.0":
   version: 0.2.0
   resolution: "@cloudflare/kv-asset-handler@npm:0.2.0"
@@ -861,6 +870,19 @@ __metadata:
   peerDependencies:
     vue: ^3.2.45
   checksum: 2ff4cd305231579936418c67174f98821460760ccd93c4e342807be96a18f984c6f5a6cf75d34a35ed3c5da454e2a325affd87058aea433df313a9b17ec58b27
+  languageName: node
+  linkType: hard
+
+"@nuxtjs/partytown@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "@nuxtjs/partytown@npm:1.3.0"
+  dependencies:
+    "@builder.io/partytown": ^0.7.2
+    "@nuxt/kit": ^3.0.0
+    knitwork: ^1.0.0
+    serve-static: ^1.15.0
+    ufo: ^1.0.1
+  checksum: 34e3522301e9c205c97d74003f1583ac5117cd778c0b0ba0ae1bbf326a9da288d0e3e088064cc1481d7dac6f48e6d7923ce903ff545943e3e4c574d94251e24e
   languageName: node
   linkType: hard
 
@@ -6328,6 +6350,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
+    "@nuxtjs/partytown": ^1.3.0
     "@nuxtjs/tailwindcss": ^6.1.3
     "@tailwindcss/typography": 0.5.7
     nuxt: 3.0.0
@@ -6991,7 +7014,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ufo@npm:^1.0.0":
+"ufo@npm:^1.0.0, ufo@npm:^1.0.1":
   version: 1.0.1
   resolution: "ufo@npm:1.0.1"
   checksum: 63024876f21b7cc44267255a8043062046d3215e09212bd682787a13ccf1e0c5d23f7686a7f1bc7ac9f34c7e8a88100af234f42b509db50f17ce638af6ac87cc

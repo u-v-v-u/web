@@ -15,5 +15,5 @@ a {
 }
 
 .nav-button {
-  @apply mr-4
+  @apply mr-4 text-[1rem] md:text-xl
 }
