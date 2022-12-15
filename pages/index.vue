@@ -37,7 +37,6 @@ try {
       <!--  Center, UwU ascii art-->
       <div id='fade-in' class='flex flex-col justify-center items-center h-screen'
         style='opacity: 0; transition: opacity 5s ease;'>
-        <Script type='text/partytown' src='/anim.js' defer/>
         <pre class='text-[0.875rem] md:text-xl  min-h-60 p-0 m-0'>{{ uwuText }}</pre>
       </div>
     </div>

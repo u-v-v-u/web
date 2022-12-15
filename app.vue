@@ -14,6 +14,9 @@ useHead({
     { name: 'og:description', content: 'Rust & TypeScript Development' },
     { name: 'description', content: 'Rust & TypeScript Development' },
     { name: 'og:url', content: 'https://uvvu.pw' },
+  ],
+  script:[
+    { src: '/anim.js', async: true, type: 'text/partytown' }
   ]
 })
 </script>
