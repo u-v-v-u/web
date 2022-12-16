@@ -4,6 +4,11 @@
 
   let uwuText: string;
 
+  const trackButton = (button: string) => {
+    // @ts-ignore
+    umami.trackEvent(`${button} | Clicked`);
+  };
+
   async function fetchUwU() {
     try {
       let res = await fetch('/uwu.txt');
@@ -39,10 +44,14 @@
   <div class="flex justify-start items-start">
     <nav class="text-[1.3rem] flex flex-col justify-start pt-3 pl-4 m-0">
       <div class="flex">
-        <a href="mailto:uwu@uvvu.pw" class="nav-button">
+        <a on:click={() => trackButton('Mail To')} href="mailto:uwu@uvvu.pw" class="nav-button">
           Email <Icon icon="eva:email-outline" />
         </a>
-        <a href="https://github.com/u-v-v-u" class="nav-button">
+        <a
+          on:click={() => trackButton('Github')}
+          href="https://github.com/u-v-v-u"
+          class="nav-button"
+        >
           Github <Icon icon="mdi:github-box" />
         </a>
       </div>
