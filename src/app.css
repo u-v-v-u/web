@@ -15,5 +15,11 @@ a {
 }
 
 .nav-button {
-  @apply mr-4 text-[1rem] md:text-xl;
+  @apply mr-4 text-[1rem] md:text-xl text-white;
+  text-decoration: none;
+}
+
+svg {
+  display: inline-flex;
+  color: white;
 }

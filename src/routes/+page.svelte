@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Icon from '@iconify/svelte';
   import { onMount } from 'svelte';
 
   let uwuText: string;
@@ -37,9 +38,13 @@
   <!--  Nav, Buttons-->
   <div class="flex justify-start items-start">
     <nav class="text-[1.3rem] flex flex-col justify-start pt-3 pl-4 m-0">
-      <div class="flex items-center">
-        <a href="mailto:uwu@uvvu.pw" class="nav-button text-white"> Email </a>
-        <a href="https://github.com/u-v-v-u" class="nav-button text-white"> Github </a>
+      <div class="flex">
+        <a href="mailto:uwu@uvvu.pw" class="nav-button">
+          Email <Icon icon="eva:email-outline" />
+        </a>
+        <a href="https://github.com/u-v-v-u" class="nav-button">
+          Github <Icon icon="mdi:github-box" />
+        </a>
       </div>
     </nav>
   </div>
