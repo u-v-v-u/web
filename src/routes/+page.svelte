@@ -1,6 +1,6 @@
 <script lang="ts">
   import Icon from '@iconify/svelte';
-  import { onMount } from 'svelte';
+  import { onMount, tick } from 'svelte';
 
   let uwuText: string;
 
@@ -27,13 +27,11 @@
     el.style.opacity = '1';
   };
 
-  onMount(() => {
-    async function init() {
-      await fetchUwU();
-      fadeIn();
-    }
+  onMount(async () => {
+    await tick();
 
-    init();
+    await fetchUwU();
+    fadeIn();
 
     return () => console.debug('Ok');
   });
