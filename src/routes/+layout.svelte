@@ -39,7 +39,9 @@
               >Projects <Icon icon="mdi:microsoft-visual-studio-code" /></a
             >
           {:else}
-            <a on:click={() => trackButton('Home')} href="/" class="nav-button">Home <Icon icon="mdi:home" /></a>
+            <a on:click={() => trackButton('Home')} href="/" class="nav-button"
+              >Home <Icon icon="mdi:home" /></a
+            >
           {/if}
         </div>
       </nav>
