@@ -37,7 +37,7 @@
   </div>
 {/if}
 
-<style type='scss'>
+<style type="scss">
   .project {
     border-color: white;
     border-width: 5px;
