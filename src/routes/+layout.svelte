@@ -4,12 +4,7 @@
 </script>
 
 <svelte:head>
-  <script
-    async
-    defer
-    data-website-id="9b863ab0-e9c3-4739-9413-98da88d84e92"
-    src="https://analytics.uvvu.pw/umami.js"
-  ></script>
+  <script defer data-domain="uvvu.pw" src="https://analytics.uvvu.pw/js/script.js"></script>
 </svelte:head>
 
 <div class="prose prose-zinc">
@@ -17,7 +12,7 @@
     <!--  Nav, Buttons-->
     <div class="flex justify-start items-start">
       <nav class="text-[1.3rem] flex flex-col justify-start pt-3 pl-4 m-0">
-          <NavBarButtons />
+        <NavBarButtons />
       </nav>
     </div>
 

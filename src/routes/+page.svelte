@@ -35,7 +35,7 @@
 <div
   id="fade-in"
   class="flex flex-col justify-center items-center h-screen"
-  style="opacity: 0; transition: opacity 5s ease;"
+  style="opacity: 0; transition: opacity 2.5s ease-in-out;"
 >
   <pre class="text-[0.875rem] md:text-xl  min-h-60 p-0 m-0">{uwuText ?? ''}</pre>
 </div>
