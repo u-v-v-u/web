@@ -9,7 +9,7 @@
       if (!res) throw null;
 
       let text = await res.text();
-      uwuText = `${text}\n\t\tRust & TypeScript Development`;
+      uwuText = `${text}\n\t\tApplication & Web Development`;
     } catch {
       uwuText = '';
     }
