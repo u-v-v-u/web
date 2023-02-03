@@ -2,26 +2,21 @@
   import { page } from '$app/stores';
   import Icon from '@iconify/svelte';
   import '../app.scss';
-
-  const trackButton = (button: string) => {
-    // @ts-ignore
-    umami.trackEvent(`${button} | Clicked`);
-  };
 </script>
 
 <div class="flex">
-  <a on:click={() => trackButton('Mail To')} href="mailto:uwu@uvvu.pw" class="nav-button">
+  <a href="mailto:uwu@uvvu.pw" class="nav-button plausible-event-name=Mailto+Button">
     Email <Icon icon="eva:email-outline" />
   </a>
-  <a on:click={() => trackButton('Github')} href="https://github.com/u-v-v-u" class="nav-button">
+  <a href="https://github.com/u-v-v-u" class="nav-button plausible-event-name=Github+Button">
     Github <Icon icon="mdi:github-box" />
   </a>
   {#if $page.url.pathname != '/projects'}
-    <a on:click={() => trackButton('Projects')} href="/projects" class="nav-button"
+    <a href="/projects" class="nav-button plausible-event-name=Project+Button"
       >Projects <Icon icon="mdi:microsoft-visual-studio-code" /></a
     >
   {:else}
-    <a on:click={() => trackButton('Home')} href="/" class="nav-button"
+    <a href="/" class="nav-button plausible-event-name=Home+Button"
       >Home <Icon icon="mdi:home" /></a
     >
   {/if}
