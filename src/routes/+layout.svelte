@@ -4,7 +4,11 @@
 </script>
 
 <svelte:head>
-  <script defer data-domain="uvvu.pw" src="https://analytics.uvvu.pw/js/script.tagged-events.js"></script>
+  <script
+    defer
+    data-domain="uvvu.pw"
+    src="https://analytics.uvvu.pw/js/script.tagged-events.js"
+  ></script>
 </svelte:head>
 
 <div class="prose prose-zinc">
