@@ -39,7 +39,7 @@
         <li class="member-block flex flex-row justify-start w-[70vw] md:w-[85vw]">
           <img src={member.avatarURL} alt="Avatar" height="256" width="256" />
 
-          <div class="ml-3 md:ml-7 flex flex-col">
+          <div class="ml-3 md:ml-7 flex flex-col justify-center">
             <div class="flex flex-row items-center">
               <h1 class="member-title">{member.name}</h1>
               {#if member.alias}
@@ -69,7 +69,7 @@
   .member-block {
     border-color: white;
     border-width: 5px;
-    height: 135px;
+    height: 155px;
     list-style-type: none;
 
     transition: ease-in-out 1s opacity;
@@ -82,7 +82,7 @@
   .member-title {
     font-family: 'Unbounded';
 
-    @apply font-extrabold text-white pl-2 pt-2 mb-[1.5rem];
+    @apply font-extrabold text-white pl-2 pt-2 mb-[1rem];
   }
 
   p {
