@@ -4,6 +4,7 @@
   type MemberMetadata = {
     name: string;
     about: string;
+    alias: Array<string>;
     avatarURL: string;
     redirect: string;
   };
@@ -39,7 +40,13 @@
           <img src={member.avatarURL} alt="Avatar" height="256" width="256" />
 
           <div class="ml-3 md:ml-7 flex flex-col">
-            <h1 class="member-title">{member.name}</h1>
+            <div class="flex flex-row items-center">
+              <h1 class="member-title">{member.name}</h1>
+              {#if member.alias}
+                <p class="member-aliases">A.K.A: {member.alias.join(', ')}</p>
+              {/if}
+            </div>
+
             <p>{member.about}</p>
           </div>
         </li>
@@ -53,6 +60,12 @@
 {/if}
 
 <style type="scss">
+  .member-aliases {
+    font-family: 'Unbounded';
+
+    @apply font-medium text-white ml-2;
+  }
+
   .member-block {
     border-color: white;
     border-width: 5px;
