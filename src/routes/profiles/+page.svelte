@@ -59,11 +59,11 @@
     height: 135px;
     list-style-type: none;
 
-    transition: ease-in-out 1s;
+    transition: ease-in-out 1s opacity;
   }
 
   .member-block:hover {
-    opactiy: 0.7;
+    opacity: 0.7;
   }
 
   .member-title {
