@@ -304,14 +304,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/adapter-auto@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@sveltejs/adapter-auto@npm:2.0.0"
+"@sveltejs/adapter-auto@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "@sveltejs/adapter-auto@npm:3.0.0"
   dependencies:
-    import-meta-resolve: ^2.2.0
+    import-meta-resolve: ^4.0.0
   peerDependencies:
-    "@sveltejs/kit": ^1.0.0
-  checksum: 7feeb24f5253b3ec4768c130f3498614e26d146e5b45560d5f3f8e3345a821f1c24fff578348fd756625af484f5b1079d33f6ecd1d43d395a192d2d193b5ab0f
+    "@sveltejs/kit": ^2.0.0
+  checksum: 9694725b7f43efc575a1643403d6fb2edf1b222d74ad8660f3dee354ad8ab93c4bc4cbcf732ec57a6b0ff2aeae51f8a640bd65d525cd2c56e0504dbca8d5072c
   languageName: node
   linkType: hard
 
@@ -549,7 +549,7 @@ __metadata:
   resolution: "@uvvu/web@workspace:."
   dependencies:
     "@iconify/svelte": ^3.1.0
-    "@sveltejs/adapter-auto": ^2.0.0
+    "@sveltejs/adapter-auto": ^3.0.0
     "@sveltejs/kit": ^1.8.3
     "@tailwindcss/typography": ^0.5.9
     "@typescript-eslint/eslint-plugin": ^5.53.0
@@ -1731,10 +1731,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"import-meta-resolve@npm:^2.2.0":
-  version: 2.2.0
-  resolution: "import-meta-resolve@npm:2.2.0"
-  checksum: 35a012c07bdaaed907ad150021b47a4bd8b2c77c88f02a2c5a15a5cb5c146072a94b6633cc528eaccf187bca12196c0fb2ff44a54b3b2a03bcf200511b3f1e50
+"import-meta-resolve@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "import-meta-resolve@npm:4.0.0"
+  checksum: 51c50115fd38e9ba21736f8d7543a58446b92d2cb5f38c9b5ec72426afeb2fb790f82051560a0f16323f44dd73d8d37c07eab5f8dc4635bcdb401daa36727b1a
   languageName: node
   linkType: hard
 
