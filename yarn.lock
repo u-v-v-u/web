@@ -208,14 +208,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/svelte@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "@iconify/svelte@npm:3.1.0"
+"@iconify/svelte@npm:^4.0.0":
+  version: 4.0.2
+  resolution: "@iconify/svelte@npm:4.0.2"
   dependencies:
     "@iconify/types": ^2.0.0
   peerDependencies:
-    svelte: ">=3"
-  checksum: b1b3ebb748cd0a25403910a61ba9dd6a12b160902b99c1d3b4e3828f27f3b46815cd237e73956d551c757b825ae4d7e9333656fc5233134c1b4fc37b24395b5e
+    svelte: ">4.0.0"
+  checksum: 4738e1cdf0af0387fb38b4da95449caa244dce9408dbcfd559b51328631994da3ec6c859b30fb31d8211785d83ba70dacf4ab42f41953ae9e451da59bc51d1b7
   languageName: node
   linkType: hard
 
@@ -548,7 +548,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@uvvu/web@workspace:."
   dependencies:
-    "@iconify/svelte": ^3.1.0
+    "@iconify/svelte": ^4.0.0
     "@sveltejs/adapter-auto": ^2.0.0
     "@sveltejs/kit": ^1.8.3
     "@tailwindcss/typography": ^0.5.9
