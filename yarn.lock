@@ -560,7 +560,7 @@ __metadata:
     eslint-plugin-svelte3: ^4.0.0
     postcss: ^8.4.21
     prettier: ^2.8.4
-    prettier-plugin-svelte: ^2.9.0
+    prettier-plugin-svelte: ^3.0.0
     sass: ^1.58.3
     svelte: ^3.55.1
     svelte-check: ^3.0.3
@@ -2495,13 +2495,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-svelte@npm:^2.9.0":
-  version: 2.9.0
-  resolution: "prettier-plugin-svelte@npm:2.9.0"
+"prettier-plugin-svelte@npm:^3.0.0":
+  version: 3.5.2
+  resolution: "prettier-plugin-svelte@npm:3.5.2"
   peerDependencies:
-    prettier: ^1.16.4 || ^2.0.0
-    svelte: ^3.2.0
-  checksum: 2d74a960783a1974a4818ebac25145ee26095c5652a777584b7eb8f08907702160263538396c03dce7f9bcd5b313f914b234eb809ccc1550a5933fc5e919ca88
+    prettier: ^3.0.0
+    svelte: ^3.2.0 || ^4.0.0-next.0 || ^5.0.0-next.0
+  checksum: c393fed2f37bcab0eb0321c1872e1c7f195e4cb1a03ff37f265c33cac20f64d91f6209f7ab505d7922271b1d288324dc96c5f5c21f22c5011a570984a8fb9dba
   languageName: node
   linkType: hard
 
