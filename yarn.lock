@@ -556,7 +556,7 @@ __metadata:
     "@typescript-eslint/parser": ^5.53.0
     autoprefixer: ^10.4.13
     eslint: ^8.34.0
-    eslint-config-prettier: ^8.6.0
+    eslint-config-prettier: ^10.0.0
     eslint-plugin-svelte3: ^4.0.0
     postcss: ^8.4.21
     prettier: ^2.8.4
@@ -1217,14 +1217,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^8.6.0":
-  version: 8.6.0
-  resolution: "eslint-config-prettier@npm:8.6.0"
+"eslint-config-prettier@npm:^10.0.0":
+  version: 10.1.9
+  resolution: "eslint-config-prettier@npm:10.1.9"
   peerDependencies:
     eslint: ">=7.0.0"
   bin:
     eslint-config-prettier: bin/cli.js
-  checksum: ff0d0dfc839a556355422293428637e8d35693de58dabf8638bf0b6529131a109d0b2ade77521aa6e54573bb842d7d9d322e465dd73dd61c7590fa3834c3fa81
+  checksum: 44b7dc82d4575e1375eabd8f2d3cda963ab65cff09492f7fc46a782f4a379729c2d98c3dfef0be68fddffd76e0e04b673cf96bf2ea3d749124fe74063cce7bb0
   languageName: node
   linkType: hard
 
